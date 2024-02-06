@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color:white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap:30px;
+    text-align: center;
+    
+}
+
+.head{
+    text-align: center;
+}
+
+.box{
+    display :flex;
+    margin:10px 40px 10px 40px;
+    gap:4rem;
+}
+
+.celsius-fahren{
+    text-align: center;
+    
+    width:500px;
+    height:200px;
+    border: 2px solid white;
+    padding:10px 10px;
+}
+
+.fahren-celsius{
+    text-align: center;
+    
+    width:500px;
+    height:200px;
+    border: 2px solid white;
+    padding:10px 10px;
+}
+
+.inp-btn1{
+    background-color: black;
+    color:white;
+}
+
+.inp-btn2{
+    background-color: black;
+    color:white;
+}
